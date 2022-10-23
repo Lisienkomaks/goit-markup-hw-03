@@ -175,6 +175,7 @@ a {
  .features-list{ 
     display: flex;
     justify-content: space-between;
+    padding-bottom: 94px;
  }
 
  .features-list .item {
@@ -204,7 +205,6 @@ a {
 
 /* work */
 .wokr-title {
-    padding-top: 94px;
     margin-top: 0;
     margin-bottom: 50px;
 
