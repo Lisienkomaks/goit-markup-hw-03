@@ -228,7 +228,7 @@ a {
 .team-list{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 
 .team-list .item {
