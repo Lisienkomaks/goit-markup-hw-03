@@ -104,6 +104,7 @@ a {
  .hero {
     background-color: var(--bg-color);
     text-align: center;
+    
     margin-bottom: 94px;
  }
 
@@ -114,18 +115,14 @@ a {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
     width: 696px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    margin-top: 0;
+    margin: 0px auto 30px auto;
     padding-top: 200px;
  }
 
  .hero-button {
     border: 1px solid transparent;
-    padding: 10px 32px;
-    margin-bottom: 200px;
     border-radius: 4px;
     background-color: var(--accent-color);
     color: var(--text-white-color);
@@ -137,6 +134,8 @@ a {
     letter-spacing: 0.06em;
 
     cursor: pointer;
+    padding: 10px 32px;
+    margin-bottom: 200px;
  }
 
  .hero-button:hover,
