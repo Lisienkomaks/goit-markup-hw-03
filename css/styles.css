@@ -76,11 +76,9 @@ a {
     display: flex;
 }
 
-
 .site-nav .item + .item {
     margin-left: 50px;
 }
-
 
 .site-nav, .auth-nav {
     font-weight: 500;
@@ -89,10 +87,11 @@ a {
 }
 
 .site-nav .link {
-    color: var(--title-text-color);
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
+
+    color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
@@ -116,31 +115,34 @@ a {
 /* main */
 /* hero */
  .hero {
+    margin-bottom: 94px;
+
     background-color: var(--bg-color);
     text-align: center;
-
-    margin-bottom: 94px;
  }
 
  .hero-title {
+    margin: 0px auto 30px auto;
+    padding-top: 200px;
+    width: 696px;
+
     color: var(--text-white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
-    width: 696px;
-    margin: 0px auto 30px auto;
-    padding-top: 200px;
  }
 
  .hero-button {
+    padding: 10px 32px;
+    margin-bottom: 200px;
+
     border: 1px solid transparent;
     border-radius: 4px;
+
     background-color: var(--accent-color);
-    color: var(--text-white-color);
-    
+    color: var(--text-white-color);  
     font-size: 16px;
     line-height: 1.87;
     font-weight: 700;
@@ -148,8 +150,6 @@ a {
     letter-spacing: 0.06em;
 
     cursor: pointer;
-    padding: 10px 32px;
-    margin-bottom: 200px;
  }
 
  .hero-button:hover,
@@ -160,10 +160,10 @@ a {
 
  /* features */
 .features-title {
-    color: var(--title-text-color);
     margin-bottom: 10px;
     margin-top: 0;
 
+    color: var(--title-text-color);
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -175,21 +175,18 @@ a {
 
     line-height: 1.71;
     letter-spacing: 0.03em;
-    
 }
 
 /* work */
 .wokr-title {
-    color: var(--title-text-color);
+    margin-top: 0;
+    margin-bottom: 50px;
 
+    color: var(--title-text-color);
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-
-    margin-top: 0;
-    margin-bottom: 50px;
-    
 }
 
 /* team */
@@ -198,16 +195,15 @@ a {
 }
 
 .team-title {
-    color: var(--title-text-color);
+    padding-top: 94px;
+    margin-top: 0;
+    margin-bottom: 50px;
 
+    color: var(--title-text-color);
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-
-    padding-top: 94px;
-    margin-top: 0;
-    margin-bottom: 50px;
 }
 
 .person-photo {
@@ -215,30 +211,26 @@ a {
 }
 
 .person-title {
-    color: var(--title-text-color);
+    margin-top: 0;
+    margin-bottom: 10px;
 
+    color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-
-    margin-top: 0;
-    margin-bottom: 10px;
-   
 }
 
 .person-description {
-    color: var(--primaty-text-color);
+    margin-top: 0;
+    margin-bottom: 30px;
 
+    color: var(--primaty-text-color);
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-    letter-spacing: 0.03em;
-
-    margin-top: 0;
-    margin-bottom: 30px;
-    
+    letter-spacing: 0.03em;  
 }
 
 /* filters */
@@ -290,16 +282,15 @@ a {
 }
 
 .footer-logo {
+    margin-top: 60px;
+    margin-bottom: 20px;
     display: inline-block;
-    color: var(--text-white-color);
-    
+
+    color: var(--text-white-color);  
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    
-    margin-top: 60px;
-    margin-bottom: 20px;
 }
 
  .footer-address {
