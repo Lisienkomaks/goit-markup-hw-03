@@ -284,7 +284,7 @@ a {
     display: flex;
     justify-content: center;
     margin-top: 94px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .buttons .item + .item{
@@ -323,7 +323,7 @@ a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 64px;
+    margin-bottom: 94px;
 }
 
 
@@ -331,7 +331,7 @@ a {
 .portfolio-item {
     border: 1px solid var(--border-portfolio-color);
     width: 370px;
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .portfolio-title {
@@ -364,7 +364,7 @@ a {
 }
 
 .footer-logo {
-    margin-top: 60px;
+    margin-top: 94px;
     margin-bottom: 20px;
     display: inline-block;
 
