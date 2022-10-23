@@ -174,9 +174,13 @@ a {
  }
 
  /* features */
- .features-list{
-    
+ .features-list{ 
     display: flex;
+    justify-content: space-between;
+ }
+
+ .features-list .item {
+    width: 270px;
  }
 
 .features-title {
@@ -184,6 +188,7 @@ a {
     margin-top: 0;
 
     color: var(--title-text-color);
+    font-size: 14px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -191,6 +196,9 @@ a {
 }
 
 .fearures-description{
+ 
+    margin-top: 0;
+
     color: var(--primaty-text-color);
 
     line-height: 1.71;
