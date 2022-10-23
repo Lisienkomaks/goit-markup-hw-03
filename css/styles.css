@@ -215,6 +215,12 @@ a {
     letter-spacing: 0.03em;
 }
 
+.work-list{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 94px;
+}
+
 /* team */
 .team {
     background-color: var(--team-color-bg);
