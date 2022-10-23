@@ -102,6 +102,9 @@ a {
  }
 
  .hero-button {
+    border: 1px solid transparent;
+    padding: 10px 32px;
+    border-radius: 4px;
     background-color: var(--accent-color);
     color: var(--text-white-color);
     
