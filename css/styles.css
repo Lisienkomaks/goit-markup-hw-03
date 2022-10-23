@@ -104,6 +104,7 @@ a {
  .hero {
     background-color: var(--bg-color);
     text-align: center;
+    margin-bottom: 94px;
  }
 
  .hero-title {
@@ -147,6 +148,8 @@ a {
  /* features */
 .features-title {
     color: var(--title-text-color);
+    margin-bottom: 10px;
+    margin-top: 0;
 
     line-height: 1.19;
     letter-spacing: 0.03em;
