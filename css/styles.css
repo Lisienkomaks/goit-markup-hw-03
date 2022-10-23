@@ -9,6 +9,7 @@
     --address-white-opacity-color:rgba(255, 255, 255, 0.6);
     --team-color-bg:#F5F4FA;
     --button-active-blue:#188CE8;
+    --header-border-line:#ECECEC;
 }
 
 body {
@@ -51,6 +52,12 @@ a {
 
 
 /* header */
+.header{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--header-border-line);
+}
+
 .logo {
     color: var(--logo-black-color);
 
