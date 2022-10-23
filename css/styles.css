@@ -276,12 +276,16 @@ a {
 }
 
 .footer-logo {
+    display: inline-block;
     color: var(--text-white-color);
     
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;    
+    letter-spacing: 0.03em;
+    
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 
  .footer-address {
