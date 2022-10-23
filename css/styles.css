@@ -72,6 +72,15 @@ a {
     color: var(--accent-color);
 }
 
+.site-nav {
+    display: flex;
+}
+
+.site-nav .item + .item {
+    margin-left: 50px;
+}
+
+
 .site-nav, .auth-nav {
     font-weight: 500;
     line-height: 1.19;
