@@ -48,13 +48,20 @@ a {
     padding-left: 15px;
     padding-right: 15px;
     width: 1200px;
+    border: 1px solid tomato;
 }
 
 /* header */
+
 .header{
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: var(--header-border-line);
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -72,6 +79,7 @@ a {
 
 .site-nav {
     display: flex;
+    margin-left: 93px;
 }
 
 .site-nav .item + .item {
@@ -103,6 +111,7 @@ a {
 
 .auth-nav {
     display: flex;
+    margin-left: auto;
 }
 
 .auth-nav .item + .item {
@@ -308,7 +317,7 @@ a {
 
  .address-location, .address-mail {
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 9px;
  }
 
  .address-location .link {
