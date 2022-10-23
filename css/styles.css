@@ -49,7 +49,6 @@ a {
     padding-left: 15px;
     padding-right: 15px;
     width: 1200px;
-    border: 1px solid tomato;
 }
 
 /* header */
@@ -324,9 +323,12 @@ a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 94px;
+    margin-bottom: 64px;
 }
-.portfolio-list .item {
+
+
+
+.portfolio-item {
     border: 1px solid var(--border-portfolio-color);
     width: 370px;
     margin-bottom: 30px;
