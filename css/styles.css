@@ -50,7 +50,6 @@ a {
     width: 1200px;
 }
 
-
 /* header */
 .header{
     border-bottom-width: 1px;
@@ -64,8 +63,7 @@ a {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
-    
+    letter-spacing: 0.03em;   
 }
 
 .logo-accent {
@@ -101,6 +99,14 @@ a {
 
 .site-nav .link.current {
     color: var(--accent-color);
+}
+
+.auth-nav {
+    display: flex;
+}
+
+.auth-nav .item + .item {
+    margin-left: 50px;
 }
 
 .auth-nav .link {
