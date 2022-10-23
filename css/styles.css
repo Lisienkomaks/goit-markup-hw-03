@@ -76,6 +76,7 @@ a {
     display: flex;
 }
 
+
 .site-nav .item + .item {
     margin-left: 50px;
 }
@@ -84,10 +85,14 @@ a {
 .site-nav, .auth-nav {
     font-weight: 500;
     line-height: 1.19;
+
 }
 
 .site-nav .link {
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .site-nav .link:hover,
