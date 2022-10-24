@@ -329,9 +329,18 @@ a {
 
 
 .portfolio-item {
-    border: 1px solid var(--border-portfolio-color);
     width: 370px;
     margin-top: 30px;
+}
+
+.portfolio-item >.items {
+    display: grid;
+
+}
+
+.border-items {
+    display: block;
+    border: 1px solid var(--border-portfolio-color);
 }
 
 .portfolio-title {
