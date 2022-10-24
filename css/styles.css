@@ -59,7 +59,7 @@ a {
     border-bottom-color: var(--header-border-line);
 }
 
-.main-nav{
+.main-nav, .header-nav{
     display: flex;
     align-items: center;
 }
