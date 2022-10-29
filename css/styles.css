@@ -245,11 +245,11 @@ p {
 /* team */
 .team {
     background-color: var(--team-color-bg);
+    padding: 94px 0 94px 0;
 }
 .team-list{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 94px;
 }
 
 .team-list .item {
@@ -262,7 +262,7 @@ p {
 }
 
 .team-title {
-    padding-top: 94px;
+    
     margin-top: 0;
     margin-bottom: 50px;
 
