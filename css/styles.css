@@ -149,7 +149,6 @@ p {
  .hero-title {
     margin: 0px auto 30px auto;
     width: 696px;
-   
 
     color: var(--text-white-color);
     font-weight: 900;
@@ -157,8 +156,6 @@ p {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
-
  }
 
  .hero-button {
@@ -191,10 +188,13 @@ p {
  }
 
  /* features */
+ .features {
+    padding: 94px 0 94px 0;
+ }
+
  .features-list{ 
     display: flex;
     justify-content: space-between;
-    padding-bottom: 94px;
  }
 
  .features-list .item {
@@ -202,7 +202,6 @@ p {
  }
 
 .features-title {
-    padding-top: 94px;
     margin-bottom: 10px;
     margin-top: 0;
 
@@ -223,7 +222,11 @@ p {
 }
 
 /* work */
-.wokr-title {
+.work {
+    padding-bottom: 94px;
+}
+
+.work-title {
     margin-top: 0;
     margin-bottom: 50px;
 
@@ -237,7 +240,6 @@ p {
 .work-list{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 94px;
 }
 
 /* team */
