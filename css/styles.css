@@ -365,14 +365,18 @@ p {
 }
 
 .portfolio-item >.items {
-    display: grid;
 
 }
 
 .border-items {
     display: block;
-    border: 1px solid var(--border-portfolio-color);
+    border-left: 1px solid var(--border-portfolio-color);
+    border-right: 1px solid var(--border-portfolio-color);
+    border-bottom: 1px solid var(--border-portfolio-color);
     padding: 20px 0 20px 24px;
+}
+.portfolio-image {
+    display: block;
 }
 
 .portfolio-title {
