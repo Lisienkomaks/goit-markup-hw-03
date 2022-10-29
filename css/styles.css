@@ -143,11 +143,11 @@ p {
  .hero {
     background-color: var(--bg-color);
     text-align: center;
+    padding: 200px 0;
  }
 
  .hero-title {
     margin: 0px auto 30px auto;
-    padding-top: 200px;
     width: 696px;
 
     color: var(--text-white-color);
@@ -159,10 +159,9 @@ p {
  }
 
  .hero-button {
-    padding: 10px 32px;
-    margin-bottom: 200px;
+    padding: 0 32px;
 
-    border: 1px solid transparent;
+    border: none;
     border-radius: 4px;
 
     background-color: var(--accent-color);
@@ -172,6 +171,7 @@ p {
     font-weight: 700;
     font-family:inherit;
     letter-spacing: 0.06em;
+    height: 50px;
 
     cursor: pointer;
  }
