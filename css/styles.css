@@ -262,8 +262,6 @@ p {
 }
 
 .team-title {
-    
-    margin-top: 0;
     margin-bottom: 50px;
 
     color: var(--title-text-color);
@@ -273,8 +271,12 @@ p {
     letter-spacing: 0.03em;
 }
 
+.team-text {
+    padding: 30px 0;
+}
+
 .person-photo {
-    margin-bottom: 30px;
+ 
 }
 
 .person-title {
@@ -290,9 +292,7 @@ p {
 }
 
 .person-description {
-    padding-bottom: 30px;
-    margin-top: 0;
-
+    margin-bottom: 0;
     color: var(--primaty-text-color);
     font-size: 16px;
     line-height: 1.18;
