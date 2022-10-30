@@ -334,7 +334,7 @@ p {
 }
 
 .buttons .button:hover,
-.buttons .button:active {
+.buttons .button:focus {
     color: var(--text-white-color);
     background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
