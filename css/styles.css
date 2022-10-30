@@ -239,7 +239,7 @@ p {
 
 .work-list{
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
 }
 
 /* team */
@@ -249,7 +249,7 @@ p {
 }
 .team-list{
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
 }
 
 .team-list .item {
